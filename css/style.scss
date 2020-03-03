@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Inconsolata', monospace;
+}
+header{
+    width: 100%;
+}
+nav{
+    height:70px;
+    width:100%;
+    background-color:#0c090c;
+    //#0A111B ;
+    border-bottom : 3px solid #F63B34 ; 
+   
+   
+}
+nav ul {
+    list-style: none;
+    display:flex; 
+    flex-direction: row ;
+    justify-content: space-around;
+    padding:20px;
+    text-decoration: white;
+}
+nav ul li a {
+    font-size:25px;
+    text-decoration:none;
+    color: white ;
+}
+nav ul li :hover{
+    color: #F63B34 ;
+    border-bottom: 1px solid  #F63B34;
+}
+#background-image{
+    background-image: url('../img/backgroundImage.jpg');
+    background-repeat: no-repeat;
+    height:500px;
+    text-align:center;
+    padding:90px;
+    color:#0c090c;
+    //#0A111B ;
+    font-size:35px;
+}
+span{
+    font-size: 25px;
+    font-weight:bold;
+    
+}
+#about{
+    background-color: #f2f2f2;
+    text-align: center ;
+    display:flex;
+    flex-wrap:inherit;
+    justify-content: space-around;
+}
+#slikaItekst{
+    width:100%;
+    height:450px;
+      display: flex;
+    flex-wrap: inherit;
+    justify-content: space-between;
+    
+}
+#tekst p
+{
+	text-align:center;
+	padding:20px 15px 0px 0px;
+    font-size:30px;
+    font-weight: bold;
+}
+.cleaner {clear: both;}
+
+.myskills {
+    background-color: #0c090c;
+    color:#f2f2f2;
+    width: 95%;
+    margin: 5px auto;
+    border-radius: 10px;}
+    .skills {
+        text-align: right;
+        padding: 15px;
+        color: #F63B34;
+        margin-bottom: 20px;
+        font-size: 20px;
+        border: 2px solid #F63B34;
+        border-radius: 10px 0px 0px 10px;
+    }
+        .percetange {
+            text-align:right;
+        }      
+        .name {
+            float:left;
+            text-transform:uppercase;
+        }
+    
+    .html {width:85%;
+  
+ }
+    .css {width:75%; 
+
+ }
+    .sass {
+        width:65%;
+ }
+ #contact{
+     display:flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+
+ }
+ #startform{
+     font-size: 40px;
+ }
+ #form{
+     color:#0A111B;
+ }
+#sub{
+    text-align:center;
+}
+label{
+    font-size:30px;
+}
+footer{
+   
+    display:flex;
+    justify-content:space-evenly;
+}
+.lista  {
+color: #f2f2f2
+}
+.lista ul{
+    list-style-type: none;
+    padding:10px;
+}
+.lista ul a{
+    list-style-type: none;
+    color:#f2f2f2;
+    font-size:20px;
+}
+
+#copyright{
+    color:#f2f2f2;
+    padding:30px;
+    font-size:20px;
+}
+footer{
+    width:100%;
+    background-color: #0c090c ;
+    border-top:4px solid #F63B34 ;
+}

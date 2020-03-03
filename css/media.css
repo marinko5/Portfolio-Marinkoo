@@ -1,0 +1,24 @@
+@media screen and (max-width: 1050px) {
+  #tekst p {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 935px) {
+  #tekst p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  nav ul li a {
+    padding: 10px;
+    font-size: 15px;
+  }
+  #slikaItekst img {
+    height: 300px;
+  }
+  height: 200px;
+  display: block;
+}
+/*# sourceMappingURL=media.css.map */
